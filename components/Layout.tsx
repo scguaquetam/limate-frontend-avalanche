@@ -69,7 +69,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 alt="Picture of the author"
               />
             </Link>
-            {isConnected && <ConnectButton />}
+            {isConnected && <ConnectButton accountStatus="address" chainStatus="none" showBalance={false} />}
           </HStack>
         </Flex>
       </Box>

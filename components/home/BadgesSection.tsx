@@ -18,10 +18,10 @@ import { Badge } from '../../src/models/Badge'
 
 const myBadges = [
   {
-    username: 'BASE LATAM 2024',
-    profilePicture: '/images/events/Based.jpeg',
-    about: 'This is my bio',
-    badge: 'Base Buildathon Latam 2024',
+    username: 'Avalanche Summit LATAM 2024',
+    profilePicture: '/images/events/avalanche.jpeg',
+    about: 'Avalanche Summit LATAM 2024',
+    badge: 'Avalanche Summit LATAM 2024',
     id: '11110000222',
     txHash: '0x0000000000000',
     userId: '11110000222'

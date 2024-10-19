@@ -18,10 +18,10 @@ const config = getDefaultConfig({
   appName: "RainbowKit App",
   projectId: process.env.NEXT_PUBLIC_PROYECT_ID ?? "",
   chains: [
-    baseSepolia,
     avalancheFuji,
+    baseSepolia,
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true"
-      ? [baseSepolia]
+      ? [avalancheFuji]
       : []),
   ],
   ssr: true,
